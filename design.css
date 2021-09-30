@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./images/bg-pattern-top.svg);
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    
+    
+
+}
+
+
+.containt{
+    min-width: 330px;
+    max-width: 350px;
+    border-radius: 1em;
+    overflow: hidden;
+    background-color: white;
+    position: ;
+    
+}
+
+.image__header{
+    width: 100%;
+    position: relative;
+}
+
+.profil{
+    display: flex;
+    border-radius: 100%;
+    border: 5px solid white;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    left: 46%;
+    bottom: 48%;    
+
+}
+
+h1{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    width: 7.5em;
+    justify-content: space-between;
+    color: hsl(229, 23%, 23%);
+    margin-top: 3em;
+}
+
+.nom__age{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.4em;
+}
+
+.age{
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.ville{
+    display: flex;
+    color: hsl(227, 10%, 46%);
+    font-size: 15px ;
+    justify-content: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight:400;
+    padding-bottom: 1.7em;
+
+}
+
+.followers{
+    flex-direction: row;
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.attribut{
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.attribut li{
+    display: inline-block;
+}
+
+.number{
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+    font-size: 18px;
+}
+
+.number__title{
+    font-weight: 400;
+    font-size: 0.8em;
+    margin-top: 0.1em;
+    margin-right: 0.8em;
+}
